@@ -21,11 +21,11 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/triedb"
+	"github.com/bisoncraft/op-geth/common"
+	"github.com/bisoncraft/op-geth/core/rawdb"
+	"github.com/bisoncraft/op-geth/core/types"
+	"github.com/bisoncraft/op-geth/crypto"
+	"github.com/bisoncraft/op-geth/triedb"
 	"github.com/holiman/uint256"
 )
 

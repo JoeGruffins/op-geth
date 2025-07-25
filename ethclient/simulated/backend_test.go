@@ -25,12 +25,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/kzg4844"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/bisoncraft/op-geth/accounts/abi/bind"
+	"github.com/bisoncraft/op-geth/common"
+	"github.com/bisoncraft/op-geth/core/types"
+	"github.com/bisoncraft/op-geth/crypto"
+	"github.com/bisoncraft/op-geth/crypto/kzg4844"
+	"github.com/bisoncraft/op-geth/params"
 	"github.com/holiman/uint256"
 	"go.uber.org/goleak"
 )

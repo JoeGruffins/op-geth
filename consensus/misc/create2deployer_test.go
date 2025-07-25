@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/bisoncraft/op-geth/common"
+	"github.com/bisoncraft/op-geth/core/vm"
+	"github.com/bisoncraft/op-geth/params"
 )
 
 func TestEnsureCreate2Deployer(t *testing.T) {

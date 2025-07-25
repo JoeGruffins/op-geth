@@ -19,9 +19,9 @@ package state
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie/utils"
+	"github.com/bisoncraft/op-geth/common"
+	"github.com/bisoncraft/op-geth/params"
+	"github.com/bisoncraft/op-geth/trie/utils"
 )
 
 var (

@@ -24,14 +24,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/catalyst"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/bisoncraft/op-geth/common"
+	"github.com/bisoncraft/op-geth/common/hexutil"
+	"github.com/bisoncraft/op-geth/eth"
+	"github.com/bisoncraft/op-geth/eth/catalyst"
+	"github.com/bisoncraft/op-geth/eth/ethconfig"
+	"github.com/bisoncraft/op-geth/internal/utesting"
+	"github.com/bisoncraft/op-geth/node"
+	"github.com/bisoncraft/op-geth/p2p"
 )
 
 func makeJWTSecret(t *testing.T) (string, [32]byte, error) {

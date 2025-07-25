@@ -23,11 +23,11 @@ import (
 	"math"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/bisoncraft/op-geth/common"
+	"github.com/bisoncraft/op-geth/core/rawdb"
+	"github.com/bisoncraft/op-geth/ethdb"
+	"github.com/bisoncraft/op-geth/ethdb/memorydb"
+	"github.com/bisoncraft/op-geth/log"
 )
 
 const (

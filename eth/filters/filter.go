@@ -24,12 +24,12 @@ import (
 	"slices"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/filtermaps"
-	"github.com/ethereum/go-ethereum/core/history"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/bisoncraft/op-geth/common"
+	"github.com/bisoncraft/op-geth/core/filtermaps"
+	"github.com/bisoncraft/op-geth/core/history"
+	"github.com/bisoncraft/op-geth/core/types"
+	"github.com/bisoncraft/op-geth/log"
+	"github.com/bisoncraft/op-geth/rpc"
 )
 
 // Filter can be used to retrieve and filter logs.

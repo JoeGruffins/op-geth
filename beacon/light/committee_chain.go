@@ -23,14 +23,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/beacon/params"
-	"github.com/ethereum/go-ethereum/beacon/types"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/bisoncraft/op-geth/beacon/params"
+	"github.com/bisoncraft/op-geth/beacon/types"
+	"github.com/bisoncraft/op-geth/common"
+	"github.com/bisoncraft/op-geth/common/lru"
+	"github.com/bisoncraft/op-geth/common/mclock"
+	"github.com/bisoncraft/op-geth/core/rawdb"
+	"github.com/bisoncraft/op-geth/ethdb"
+	"github.com/bisoncraft/op-geth/log"
 )
 
 var (

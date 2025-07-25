@@ -27,13 +27,13 @@ import (
 	"testing/quick"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/testlog"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/bisoncraft/op-geth/common/mclock"
+	"github.com/bisoncraft/op-geth/crypto"
+	"github.com/bisoncraft/op-geth/internal/testlog"
+	"github.com/bisoncraft/op-geth/log"
+	"github.com/bisoncraft/op-geth/p2p/enode"
+	"github.com/bisoncraft/op-geth/p2p/enr"
+	"github.com/bisoncraft/op-geth/p2p/netutil"
 )
 
 func TestTable_pingReplace(t *testing.T) {

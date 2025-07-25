@@ -26,10 +26,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/testrand"
+	"github.com/bisoncraft/op-geth/common"
+	"github.com/bisoncraft/op-geth/common/math"
+	"github.com/bisoncraft/op-geth/crypto"
+	"github.com/bisoncraft/op-geth/internal/testrand"
 )
 
 const jsondata = `

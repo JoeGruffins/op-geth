@@ -25,17 +25,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/filtermaps"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/bisoncraft/op-geth/common"
+	"github.com/bisoncraft/op-geth/consensus/ethash"
+	"github.com/bisoncraft/op-geth/core"
+	"github.com/bisoncraft/op-geth/core/filtermaps"
+	"github.com/bisoncraft/op-geth/core/rawdb"
+	"github.com/bisoncraft/op-geth/core/types"
+	"github.com/bisoncraft/op-geth/ethdb"
+	"github.com/bisoncraft/op-geth/event"
+	"github.com/bisoncraft/op-geth/internal/ethapi"
+	"github.com/bisoncraft/op-geth/params"
+	"github.com/bisoncraft/op-geth/rpc"
 )
 
 type testBackend struct {

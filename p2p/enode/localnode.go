@@ -26,9 +26,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/bisoncraft/op-geth/log"
+	"github.com/bisoncraft/op-geth/p2p/enr"
+	"github.com/bisoncraft/op-geth/p2p/netutil"
 )
 
 const (

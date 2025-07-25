@@ -22,10 +22,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto/kzg4844"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/bisoncraft/op-geth/common"
+	"github.com/bisoncraft/op-geth/crypto/kzg4844"
+	"github.com/bisoncraft/op-geth/params"
+	"github.com/bisoncraft/op-geth/rlp"
 	"github.com/holiman/uint256"
 )
 

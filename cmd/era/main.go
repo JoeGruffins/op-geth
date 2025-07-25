@@ -27,14 +27,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/internal/era"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/bisoncraft/op-geth/common"
+	"github.com/bisoncraft/op-geth/core/types"
+	"github.com/bisoncraft/op-geth/eth"
+	"github.com/bisoncraft/op-geth/internal/era"
+	"github.com/bisoncraft/op-geth/internal/ethapi"
+	"github.com/bisoncraft/op-geth/internal/flags"
+	"github.com/bisoncraft/op-geth/params"
+	"github.com/bisoncraft/op-geth/trie"
 	"github.com/urfave/cli/v2"
 )
 

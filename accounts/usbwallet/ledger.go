@@ -28,13 +28,13 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/bisoncraft/op-geth/accounts"
+	"github.com/bisoncraft/op-geth/common"
+	"github.com/bisoncraft/op-geth/common/hexutil"
+	"github.com/bisoncraft/op-geth/core/types"
+	"github.com/bisoncraft/op-geth/crypto"
+	"github.com/bisoncraft/op-geth/log"
+	"github.com/bisoncraft/op-geth/rlp"
 )
 
 // ledgerOpcode is an enumeration encoding the supported Ledger opcodes.

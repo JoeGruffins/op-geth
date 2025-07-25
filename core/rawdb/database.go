@@ -27,11 +27,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/bisoncraft/op-geth/common"
+	"github.com/bisoncraft/op-geth/crypto"
+	"github.com/bisoncraft/op-geth/ethdb"
+	"github.com/bisoncraft/op-geth/ethdb/memorydb"
+	"github.com/bisoncraft/op-geth/log"
 	"github.com/olekukonko/tablewriter"
 )
 

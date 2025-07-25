@@ -5,13 +5,13 @@ package ethconfig
 import (
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/history"
-	"github.com/ethereum/go-ethereum/core/txpool/blobpool"
-	"github.com/ethereum/go-ethereum/core/txpool/legacypool"
-	"github.com/ethereum/go-ethereum/eth/gasprice"
-	"github.com/ethereum/go-ethereum/miner"
+	"github.com/bisoncraft/op-geth/common"
+	"github.com/bisoncraft/op-geth/core"
+	"github.com/bisoncraft/op-geth/core/history"
+	"github.com/bisoncraft/op-geth/core/txpool/blobpool"
+	"github.com/bisoncraft/op-geth/core/txpool/legacypool"
+	"github.com/bisoncraft/op-geth/eth/gasprice"
+	"github.com/bisoncraft/op-geth/miner"
 )
 
 // MarshalTOML marshals as TOML.

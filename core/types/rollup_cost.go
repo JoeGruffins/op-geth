@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/bisoncraft/op-geth/common"
+	"github.com/bisoncraft/op-geth/log"
+	"github.com/bisoncraft/op-geth/params"
 	"github.com/holiman/uint256"
 )
 

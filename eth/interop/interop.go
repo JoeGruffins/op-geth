@@ -5,9 +5,9 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types/interoptypes"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/bisoncraft/op-geth/common"
+	"github.com/bisoncraft/op-geth/core/types/interoptypes"
+	"github.com/bisoncraft/op-geth/rpc"
 )
 
 type InteropClient struct {

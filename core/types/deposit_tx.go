@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/bisoncraft/op-geth/common"
+	"github.com/bisoncraft/op-geth/rlp"
 )
 
 const DepositTxType = 0x7E

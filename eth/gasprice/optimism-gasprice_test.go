@@ -21,15 +21,15 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/bisoncraft/op-geth/common"
+	"github.com/bisoncraft/op-geth/core"
+	"github.com/bisoncraft/op-geth/core/state"
+	"github.com/bisoncraft/op-geth/core/types"
+	"github.com/bisoncraft/op-geth/crypto"
+	"github.com/bisoncraft/op-geth/event"
+	"github.com/bisoncraft/op-geth/params"
+	"github.com/bisoncraft/op-geth/rpc"
+	"github.com/bisoncraft/op-geth/trie"
 )
 
 const (

@@ -27,17 +27,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/ethdb/pebble"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/triedb"
-	"github.com/ethereum/go-ethereum/triedb/hashdb"
-	"github.com/ethereum/go-ethereum/triedb/pathdb"
+	"github.com/bisoncraft/op-geth/common"
+	"github.com/bisoncraft/op-geth/consensus/ethash"
+	"github.com/bisoncraft/op-geth/core/rawdb"
+	"github.com/bisoncraft/op-geth/core/state"
+	"github.com/bisoncraft/op-geth/core/types"
+	"github.com/bisoncraft/op-geth/core/vm"
+	"github.com/bisoncraft/op-geth/ethdb/pebble"
+	"github.com/bisoncraft/op-geth/params"
+	"github.com/bisoncraft/op-geth/triedb"
+	"github.com/bisoncraft/op-geth/triedb/hashdb"
+	"github.com/bisoncraft/op-geth/triedb/pathdb"
 )
 
 // rewindTest is a test case for chain rollback upon user request.

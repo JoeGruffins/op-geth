@@ -23,11 +23,11 @@ import (
 	"slices"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/bisoncraft/op-geth/common"
+	"github.com/bisoncraft/op-geth/core/rawdb"
+	"github.com/bisoncraft/op-geth/log"
+	"github.com/bisoncraft/op-geth/metrics"
+	"github.com/bisoncraft/op-geth/rlp"
 )
 
 // counter helps in tracking items and their corresponding sizes.
